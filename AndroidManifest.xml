@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="10"
+    android:versionName="1.0.0"
+    android:windowSoftInputMode="0x20"
+    android:installLocation="1"
+    package="a7pong.andyA7.edu.mit.scratch"
+    platformBuildVersionCode="25"
+    platformBuildVersionName="7.1.1">
+
+    <uses-sdk
+        android:minSdkVersion="14" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:resizeable="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:label="@ref/0x7f050001"
+        android:icon="@ref/0x7f030000"
+        android:debuggable="false"
+        android:hardwareAccelerated="true">
+
+        <activity
+            android:label="@ref/0x7f050001"
+            android:name="a7pong.andyA7.edu.mit.scratch.A7Pong1_2_2"
+            android:screenOrientation="-1"
+            android:configChanges="0x4b4"
+            android:windowSoftInputMode="0x0">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
